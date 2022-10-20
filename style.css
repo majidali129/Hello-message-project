@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Josefin+Sans:wght@200;300;400;500&family=Montserrat:wght@500;600;700&family=PT+Serif&family=Roboto:wght@300;400;500&display=swap');
+*,::after,::before{
+    margin: 0;padding: 0;box-sizing: border-box;
+};
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    background-color: aliceblue;
+}
+.message{
+    /* border: 2px solid green; */
+    background-color: rgba(250, 235, 215, 0.575);
+    color: blue;
+    border-radius: 2px;
+    width: 40%;
+    font-size: 5vw;
+    margin: auto;
+    letter-spacing: 0.01em;
+    color: hsl(263, 49%, 22%);
+    padding:1.5em ;
+    text-align: center;
+}
